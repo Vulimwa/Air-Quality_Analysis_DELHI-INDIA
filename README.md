@@ -39,7 +39,7 @@ Notes on the dataset used in the notebook:
 - The notebook includes initial observations such as which pollutant appears highest on average and a note that pollution tends to increase in summer months (based on grouping by month/season).
 - The analysis is exploratory and intended for learning; model performance depends on the quality, quantity, and preprocessing of data.
 
-Do not treat the model in the notebook as production-ready—it's a demonstration of linear regression on this dataset.
+Do not treat the model in the notebook as production-ready-it's a demonstration of linear regression on this dataset.
 
 ## Visualizations: See the Data in Action
 
@@ -129,7 +129,7 @@ jupyter
 
 - Missing values: the notebook fills missing pollutant values with the column mean. Mean imputation is simple but can bias results. Consider other imputation strategies for improved modeling (median, KNN, interpolation).
 - Season mapping: the notebook maps months to three categories (Winter, Summer, Other). You may want to refine season definitions if required.
-- Model split: the notebook performs a train/test split and trains a LinearRegression model. Verify the order/arguments passed to `train_test_split` (expected ordering is X_train, X_test, y_train, y_test or using named outputs from the function) — if results look odd, check how split return values were assigned.
+- Model split: the notebook performs a train/test split and trains a LinearRegression model. Verify the order/arguments passed to `train_test_split` (expected ordering is X_train, X_test, y_train, y_test or using named outputs from the function)-if results look odd, check how split return values were assigned.
 
 ## Contract (inputs / outputs / success criteria)
 
@@ -139,7 +139,7 @@ jupyter
 
 ## Edge cases and notes
 
-- If `Date` is not parsed as datetime, the `Month` and `Season` columns will fail—ensure `pd.read_excel(..., parse_dates=['Date'])` or convert after loading.
+- If `Date` is not parsed as datetime, the `Month` and `Season` columns will fail-ensure `pd.read_excel(..., parse_dates=['Date'])` or convert after loading.
 - If the file `AIR_DELHI.xlsx` is missing or in a different path, update the path or place the file in the notebook directory.
 - Non-numeric pollutant values will error out when computing means or training models; cast or clean data first.
 
