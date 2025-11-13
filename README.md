@@ -1,6 +1,4 @@
-# Delhi Air Quality Analysis (PLP Assignment)
-
-> Courtesy of PLP Assignment
+# Delhi Air Quality Analysis
 
 ## Project Overview
 
@@ -145,5 +143,4 @@ jupyter
 
 ## Credits
 
-This project and notebook is dedicated to PLP ACADEMY. Use and modify as needed for learning and experimentation. AUTHORED BY CODE4CITIES(BRAVIN VULIMWA)
-
+This project and notebook is authored by Bravin Vulimwa. Use and modify as needed for learning and experimentation.
